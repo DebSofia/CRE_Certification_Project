@@ -1,0 +1,16 @@
+pageobjects\UserLogin.class
+browserconfiguration\BrowserConfiguration.class
+magentoDemoSteps\steps\AddToCartSteps.class
+magentoDemoSteps\steps\SearchAndVisualizeSteps.class
+randomcredentialsgenerator\RandomCredentialsGenerator.class
+pageobjects\UserResgistration.class
+testcontext\TestContext.class
+pageobjects\ProductSearchAndVisualization.class
+utils\StepUtils.class
+magentoDemoSteps\steps\HomePageSteps.class
+magentoDemoSteps\steps\ProductPurchaseSteps.class
+magentodemotestrunner\MagentoDemoRunnerTest.class
+pageobjects\AddProductToCart.class
+magentoDemoSteps\steps\UserRegistrationSteps.class
+pageobjects\ProductPurchase.class
+magentoDemoSteps\steps\UserLoginSteps.class

@@ -1,0 +1,144 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>CRECertificationProject</groupId>
+	<artifactId>CRECertificationProject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<!-- Propriedades do projeto -->
+	<properties>
+		<!-- Codificação de fonte -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- Versões das dependências -->
+		<selenium.version>4.16.1</selenium.version>
+		<cucumber.version>7.11.1</cucumber.version>
+		<testng.version>7.7.1</testng.version>
+		<webdrivermanager.version>5.6.2</webdrivermanager.version>
+		<extent.version>5.0.9</extent.version>
+		<extent.cucumber.adapter.version>1.10.1</extent.cucumber.adapter.version>
+		<lombok.version>1.18.26</lombok.version>
+		<maven.compiler.plugin.version>3.10.1</maven.compiler.plugin.version>
+		<maven.surefire.plugin.version>3.0.0-M7</maven.surefire.plugin.version>
+
+		<!-- Versão do Java compilador -->
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<junit.version>4.12</junit.version>
+
+
+	</properties>
+
+	<!-- Dependências do projeto -->
+	<dependencies>
+		
+		<!-- Dependências do Cucumber: Ferramenta para testes automatizados em
+		BDD (Behavior Driven Development) -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cucumber.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Dependência do Selenium: Framework para automação de testes em
+		navegadores -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+
+		<!-- Dependência do TestNG: Framework para testes unitários e de
+		integração -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Injeção de Dependência com PicoContainer para Cucumber -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-picocontainer</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- WebDriver Manager: Gerenciamento automático de drivers para
+		navegadores -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>${webdrivermanager.version}</version>
+		</dependency>
+
+		<!-- Extent Reports: Geração de relatórios para testes automatizados -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>${extent.version}</version>
+		</dependency>
+
+		<!-- Adaptador ExtentReport para Cucumber -->
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber7-adapter</artifactId>
+			<version>${extent.cucumber.adapter.version}</version>
+		</dependency>
+
+		<!-- Lombok: Biblioteca para reduzir o código boilerplate em Java -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- JUnit: Framework para testes unitários -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<!-- Configuração de build -->
+	<build>
+		<plugins>
+			<!-- Plugin do compilador Maven: Configura o compilador Java -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven.compiler.plugin.version}</version>
+				<configuration>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+				</configuration>
+			</plugin>
+
+			<!-- Plugin Maven Surefire para execução de testes -->
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven.surefire.plugin.version}</version>
+				<configuration>
+					<parallel>methods</parallel>
+					<useUnlimitedThreads>true</useUnlimitedThreads>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+
+</project>
