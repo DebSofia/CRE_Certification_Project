@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-27T14:59:59 WET" name="Surefire suite" finished-at="2024-11-27T15:01:11 WET" duration-ms="71861">
+  <suite started-at="2024-11-27T15:03:28 WET" name="Surefire suite" finished-at="2024-11-27T15:08:08 WET" duration-ms="279870">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-11-27T14:59:59 WET" name="Surefire test" finished-at="2024-11-27T15:01:11 WET" duration-ms="71861">
+    <test started-at="2024-11-27T15:03:28 WET" name="Surefire test" finished-at="2024-11-27T15:08:08 WET" duration-ms="279870">
       <class name="magentodemotestrunner.MagentoDemoRunnerTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T14:59:59 WET" name="setUpClass" finished-at="2024-11-27T15:00:00 WET" duration-ms="714" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:03:28 WET" name="setUpClass" finished-at="2024-11-27T15:03:29 WET" duration-ms="668" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,199 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:00:00 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:00:25 WET" duration-ms="24915" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:03:29 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:03:43 WET" duration-ms="14893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding a product to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Item to Shopping Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:03:43 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:04:00 WET" duration-ms="16586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding a product to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Item to Shopping Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:04:00 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:04:45 WET" duration-ms="44538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful purchase of a product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Purchase"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:04:45 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:05:25 WET" duration-ms="39945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful purchase of a product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Purchase"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:05:25 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:05:30 WET" duration-ms="5302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful search for an existing product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search and Visualize Item"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:05:30 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:05:37 WET" duration-ms="7298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful search for an existing product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search and Visualize Item"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:05:37 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:05:44 WET" duration-ms="6551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Viewing product details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search and Visualize Item"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:05:44 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:05:52 WET" duration-ms="8568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Viewing product details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search and Visualize Item"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:05:52 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:06:11 WET" duration-ms="19204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:06:11 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:06:29 WET" duration-ms="17275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:06:29 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:06:45 WET" duration-ms="16502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:06:45 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:07:02 WET" duration-ms="16538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:07:02 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:07:22 WET" duration-ms="20094" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +229,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:00:25 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:00:45 WET" duration-ms="19621" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:07:22 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:07:42 WET" duration-ms="20377" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +245,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:00:45 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:00:58 WET" duration-ms="12887" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:07:42 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:07:55 WET" duration-ms="12312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +261,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:00:58 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:01:11 WET" duration-ms="13594" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:07:55 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T15:08:08 WET" duration-ms="13080" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +277,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:01:11 WET" name="tearDownClass" finished-at="2024-11-27T15:01:11 WET" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:magentodemotestrunner.MagentoDemoRunnerTest@3d51f06e]" started-at="2024-11-27T15:08:08 WET" name="tearDownClass" finished-at="2024-11-27T15:08:08 WET" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
