@@ -53,10 +53,10 @@ public class ProductPurchase {
 
 			// Sleep for 3 seconds (3000 milliseconds)
 			Thread.sleep(3000); 
-			userLogin.SignInButtonLocation();
-			userLogin.EmailInputField(email);
-			userLogin.PasswordInputField(password);
-			userLogin.SignInButtonClick();
+			userLogin.signInButtonLocation();
+			userLogin.emailInputField(email);
+			userLogin.passwordInputField(password);
+			userLogin.signInButtonClick();
 
 		} catch (TimeoutException e) {
 			System.err.println("Could not find a clickable element called chekmo" + e.getMessage());

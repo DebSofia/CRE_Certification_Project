@@ -27,14 +27,14 @@ public class UserLogin {
 
 	}
 
-	public void SignInButtonLocation() {
+	public void signInButtonLocation() {
 		signIn = new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//div[@class='panel header']//a[contains(text(),'Sign In')]")));
 		signIn.click();
 
 	}
 
-	public void EmailInputField(String email) {
+	public void emailInputField(String email) {
 		emailField = new WebDriverWait(driver, Duration.ofSeconds(5))
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='email']")));
 
@@ -49,7 +49,7 @@ public class UserLogin {
 		// emailField.sendKeys(email);
 	}
 
-	public void PasswordInputField(String password) {
+	public void passwordInputField(String password) {
 		passwordField = new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//fieldset[@class='fieldset login']//input[@id='pass']")));
 
@@ -62,13 +62,13 @@ public class UserLogin {
 		 */
 	}
 
-	public void SignInButtonClick() {
+	public void signInButtonClick() {
 		signInButton = new WebDriverWait(driver, Duration.ofSeconds(10))
 				.until(ExpectedConditions.elementToBeClickable(By.id("send2")));
 		signInButton.submit();
 	}
 
-	public void UserLoggedVerification() {
+	public void userLoggedVerification() {
 
 		try {
 

@@ -22,23 +22,23 @@ public class UserLoginSteps {
 
     @And("I navigate to the Magento-demo.mageplaza.com login page")
     public void i_navigate_to_the_magento_demo_mageplaza_com_login_page() {
-        userLogin.SignInButtonLocation();
+        userLogin.signInButtonLocation();
     }
 
     @When("I enter a {string} and {string}")
     public void i_enter_a_email_and_password(String email, String password) {
-        userLogin.EmailInputField(email);
-        userLogin.PasswordInputField(password);
+        userLogin.emailInputField(email);
+        userLogin.passwordInputField(password);
     }
 
     @And("I click the signin button")
     public void i_click_the_signin_button() {
-        userLogin.SignInButtonClick();
+        userLogin.signInButtonClick();
     }
 
     @Then("I should see my account dashboard")
     public void i_should_see_my_account_dashboard() {
-        userLogin.UserLoggedVerification();
+        userLogin.userLoggedVerification();
     }
 
 
