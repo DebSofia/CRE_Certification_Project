@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
     
-    /*tags = "@tag1", // Tag to select the scenarios to run*/
+    /*tags = "@tag2", // Tag to select the scenarios to run*/
     features = "src/test/resources", // Path to the feature files
     glue = "magentoDemoSteps.steps", // Package containing the step definitions
     plugin = {

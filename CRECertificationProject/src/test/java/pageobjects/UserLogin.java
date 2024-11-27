@@ -40,13 +40,7 @@ public class UserLogin {
 
 		StepUtils.slowSendKeys(email, emailField);
 
-		/*
-		 * for (String c : email.split("")) { emailField.sendKeys(c); try {
-		 * Thread.sleep(100); } catch (InterruptedException e) { throw new
-		 * RuntimeException(e); } }
-		 */
-
-		// emailField.sendKeys(email);
+		
 	}
 
 	public void passwordInputField(String password) {
@@ -55,11 +49,7 @@ public class UserLogin {
 
 		StepUtils.slowSendKeys(password, passwordField);
 
-		/*
-		 * passwordField.clear();
-		 * 
-		 * passwordField.sendKeys(password);
-		 */
+		
 	}
 
 	public void signInButtonClick() {

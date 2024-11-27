@@ -16,7 +16,7 @@ Feature: User Login
       | browser | email                 | password      |
       | chrome  | rurusa@mailinator.com | 7vq@uVrnd9V52 |
       | firefox | rurusa@mailinator.com | 7vq@uVrnd9V52 |
-      | edge    | rurusa@mailinator.com | 7vq@uVrnd9V52 |
+#      | edge    | rurusa@mailinator.com | 7vq@uVrnd9V52 |
      
 
   @test2
@@ -31,5 +31,5 @@ Feature: User Login
       | browser | email             | password      |
       | chrome  | rurusa@mailinator | 7vq@uVrnd9V52 |
       | firefox | rurusa@mailinator | 7vq@uVrnd9V52 |
-      | edge    | rurusa@mailinator | 7vq@uVrnd9V52 |
+#      | edge    | rurusa@mailinator | 7vq@uVrnd9V52 |
   

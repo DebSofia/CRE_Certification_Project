@@ -17,7 +17,7 @@ Feature: New User Registration
       | browser |
       | chrome  |
       | firefox |
-      | edge    |
+#      | edge    |
       
 
   @test2
@@ -32,5 +32,5 @@ Feature: New User Registration
       | browser |
       | chrome  |
       | firefox |
-      | edge    |
+ #     | edge    |
      

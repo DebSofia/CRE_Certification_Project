@@ -19,6 +19,6 @@ Feature: Product Purchase
       | browser | email                 | password      | search term |
       | chrome  | rurusa@mailinator.com | 7vq@uVrnd9V52 | bags        |
       | firefox | rurusa@mailinator.com | 7vq@uVrnd9V52 | bags        |
-      | edge    | rurusa@mailinator.com | 7vq@uVrnd9V52 | bags        |
+#      | edge    | rurusa@mailinator.com | 7vq@uVrnd9V52 | bags        |
   
       

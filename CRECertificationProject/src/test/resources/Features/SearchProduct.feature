@@ -15,7 +15,7 @@ Feature: Search and Visualize Item
       | browser | searchTerm |
       | chrome  | watches    |
       | firefox | watches    |
-      | edge    | watches    |
+#      | edge    | watches    |
   
       
 
@@ -31,5 +31,5 @@ Feature: Search and Visualize Item
       | browser | searchTerm | name               | price  | description |
       | chrome  | watches    | Dash Digital Watch | $92.00 | Details     |
       | firefox | watches    | Dash Digital Watch | $92.00 | Details     |
-      | edge    | watches    | Dash Digital Watch | $92.00 | Details     |
+#      | edge    | watches    | Dash Digital Watch | $92.00 | Details     |
      

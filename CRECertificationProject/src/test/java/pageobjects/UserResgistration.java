@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import randomcredentialsgenerator.RandomCredentialsGenerator;
+import utils.StepUtils;
 
 import static org.junit.Assert.assertEquals;
 
@@ -56,31 +57,41 @@ public class UserResgistration {
 		firstNameInputField = new WebDriverWait(driver, Duration.ofSeconds(5))
 				.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#firstname")));
 
-		firstNameInputField.sendKeys(firstName);
+		StepUtils.slowSendKeys(firstName, firstNameInputField);
+		
+		//firstNameInputField.sendKeys(firstName);
 
 		
 		lastNameInputField = new WebDriverWait(driver, Duration.ofSeconds(5))
 				.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#lastname")));
 
-		lastNameInputField.sendKeys(lastName);
+		StepUtils.slowSendKeys(lastName, lastNameInputField);
+		
+		//lastNameInputField.sendKeys(lastName);
 		
 		
 		
 		emailInputField = new WebDriverWait(driver, Duration.ofSeconds(5))
 				.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#email_address")));
 
-		emailInputField.sendKeys(email);
+		StepUtils.slowSendKeys(email, emailInputField);
+		
+		//emailInputField.sendKeys(email);
 		
 		passowrdInputField = new WebDriverWait(driver, Duration.ofSeconds(5))
 				.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#password")));
 
-		passowrdInputField.sendKeys(password);
+		StepUtils.slowSendKeys(password, passowrdInputField);
+		
+		//passowrdInputField.sendKeys(password);
 		
 
 		confirmPasswordInputField = new WebDriverWait(driver, Duration.ofSeconds(5))
 				.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#password-confirmation")));
 
-		confirmPasswordInputField.sendKeys(password);
+		StepUtils.slowSendKeys(password, confirmPasswordInputField);
+		
+		//confirmPasswordInputField.sendKeys(password);
 	}
 
 	public void clickCreateAccountButton() {

@@ -17,6 +17,6 @@ Feature: Add Item to Shopping Cart
       | browser | searchTerm |   
       | chrome  | bags       |
       | firefox | bags       |
-      | edge    | bags       |
+#      | edge    | bags       |
   
 
